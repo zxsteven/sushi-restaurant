@@ -1752,7 +1752,7 @@
 
   .app-photos.one {
     position: static;
-    width: 38%;
+    width: 33%;
     margin-right: auto;
     margin-bottom: -110px;
     margin-left: auto;
@@ -1761,19 +1761,21 @@
 
   .app-photos.two {
     position: static;
-    width: 38%;
+    width: 33%;
     max-width: none;
     margin-right: -20px;
     margin-bottom: -20px;
     margin-left: -20px;
+    border-radius: 8px;
   }
 
   .app-photos.three {
     position: static;
-    width: 38%;
-    margin-top: -70px;
+    width: 33%;
+    margin-top: -50px;
     margin-right: auto;
     margin-left: auto;
+    border-radius: 8px;
   }
 
   .slider-wrapper {
@@ -2005,6 +2007,17 @@
     -ms-flex-item-align: auto;
     -ms-grid-row-align: auto;
     align-self: auto;
+  }
+
+  #w-node-_3f1cb3b9-02b4-42b5-3724-b591f03fea80-e73aa09d {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
   }
 }
 
